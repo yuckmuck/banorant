@@ -1,0 +1,37 @@
+body {
+    background-image: url(../../../indimg/bind.jpg);
+    max-width: 100vw;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.info {
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0 0 4px black;
+}
+
+.card img {
+    margin-top: 40px;
+    height: 80vh;
+    margin-left: 15px;
+    
+}
+.agent img {
+    margin-top: 30px;
+    height: 90vh;
+    margin-left: 15px;
+}
+

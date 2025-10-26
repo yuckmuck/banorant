@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url(../fonts/Valorant-Font.ttf)
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Valorant; 
+    cursor: crosshair;
+    
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(../indimg/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+   
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+
+  }
+  .logo :hover{
+    position: relative;
+    bottom: 2px;
+    transform: scale(1.1);
+  }
+
+  
+  .main-nav ul{
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+    list-style: none;
+    background-color: #ff4457;
+    box-shadow: 0 0 0 3px black;
+  }
+  
+  .main-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .main-nav a:hover  {
+    color: white;
+    position: relative;
+    bottom: 3px;
+    font-weight: bold;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;	
+    height: 60px;
+    width: 100%;
+    font-size: 1.25rem;
+  }
+
+
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home p{
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+
+/**PICTURES**//**PICTURES**//**PICTURES**//**PICTURES**//**PICTURES**//**PICTURES**//**PICTURES**/
+
+.grid {
+    position: relative;
+    top: 20px;
+    height: 600px;
+    width: 1000px;  
+    display: flex;
+    margin: auto;
+    
+}
+.pic {
+    float: left;
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+}
+.pic img{
+    box-shadow: 0 0 0 5px black;
+    height: 100%;
+    max-height:230px;
+    width: auto;
+}
+.pic a:hover {
+    position: relative;
+    bottom: 10px;
+}
+.pic a:hover img{
+    transform: scale(1.1);
+}
+
+button {
+  background-color: #ff4457;
+  border-color: black;
+  border-radius: 2%;
+  border-width: 2.5px;
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+button:hover {
+  color: white;
+  border-color: white;
+}

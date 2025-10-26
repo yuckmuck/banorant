@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+		<title> BANORANT </title>
+    <link rel="shortcut icon" type="image/png" href="indimg/banorant.png"/>
+    <link rel="stylesheet" type="text/css" href="indcss/style.css">
+    <link rel="stylesheet" type="text/css" href="indcss/nav.css">
+
+</head>
+
+<body>
+  
+    <header class="main-header">
+		<a href="index.html" class="logo">
+		  <img src="indimg/banorant.png" width="100px"; height="auto">
+		</a>
+    <label for="check">Menu</label>
+      <input id="check" type="checkbox">
+		<nav class="main-nav">
+		  <ul>
+			<li><a href="pages/humphrey/humphrey.html">Humphrey</a></li>
+			<li><a href="pages/gian/gian.html">Gian</a></li>
+			<li><a href="pages/jush/jush.html">Jush</a></li>
+			<li><a href="pages/paolo/paolo.html">Paolo</a></li>
+		  </ul>
+		</nav>
+	</header>
+  
+  
+  <div class="home" id="1">
+    <b><p>BANORANT</p></b>
+    <a href="#2"><button onclick="playAudio()" type="button">play</button></a>
+      <audio id="myAudio">
+      <source src="media/audio.mp3" type="audio/mpeg">
+      </audio><script> var x = document.getElementById("myAudio"); 
+      function playAudio() { x.play(); }  </script>  </div>
+ 
+
+
+
+  <div class="grid" id="2">
+    <div class="top">
+         <div class="topleft pic">
+             <a href="pages/humphrey/humphrey.html"><img src="indimg/ascent.png"></a>
+        </div>
+        <div class="topright pic">
+            <a href="pages/jush/jush.html"><img src="indimg/bind.png"></a>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="botleft pic">
+            <a href="pages/gian/gian.html"><img src="indimg/haven.png" ></a>
+        </div>
+        <div class="topright pic">
+            <a href="pages/paolo/paolo.html"><img src="indimg/split.png"></a>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
